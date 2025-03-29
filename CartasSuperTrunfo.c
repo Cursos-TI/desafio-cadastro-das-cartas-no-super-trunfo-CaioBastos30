@@ -49,8 +49,8 @@ int main() {
     printf("Cadastro da Carta 2:\n");
     printf("\n");
     printf("Digite a letra que representa o estado: ");
-    scanf("%c", &estado2);
     getchar(); // Foi preciso incluir um "consumo de quebra de linha", pois a linha estava sendo pulada antes de incluir a informação solicitada.
+    scanf("%c", &estado2);
     printf("\n");
     printf("Digite o código da carta: ");
     scanf("%s", codigo2);
